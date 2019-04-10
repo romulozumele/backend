@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "devDependencies": {
+    "mongoose": "^5.5.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "multer": "^1.4.1",
+    "muter": "^0.7.0",
+    "socket.io": "^2.2.0"
+  }
+}
