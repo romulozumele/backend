@@ -13,7 +13,7 @@ class FileController {
 
         box.files.push(file);
         await box.save();
-            req.io.sockets.in(box_.id).emit('file', file);
+            req.io.sockets.in(box_._id).emit('file', file);
                 return res.json(file);
     }
 }
